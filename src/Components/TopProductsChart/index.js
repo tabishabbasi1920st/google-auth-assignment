@@ -80,29 +80,31 @@ const TopProductsChart = () => {
             fill={COLORS[0]}
           />
         </PieChart>
-        <ul className="pie-chart-data-container">
-          <li>
-            <div>
-              <GoDotFill color={"#98D89E"} />
-              <span>Tees</span>
-            </div>
-            <p>{`${data[0].price}`}</p>
-          </li>
-          <li>
-            <div>
-              <GoDotFill color="#F6DC7D" />
-              <span>Pants</span>
-            </div>
-            <p>{`${data[1].price}`}</p>
-          </li>
-          <li>
-            <div>
-              <GoDotFill color="#EE8484" />
-              <span>Hoodies</span>
-            </div>
-            <p>{`${data[2].price}`}</p>
-          </li>
-        </ul>
+        {apiStatus === apiStatusConstants.success && (
+          <ul className="pie-chart-data-container">
+            <li>
+              <div>
+                <GoDotFill color={"#98D89E"} />
+                <span>Tees</span>
+              </div>
+              <p>{`${data[0].price}`}</p>
+            </li>
+            <li>
+              <div>
+                <GoDotFill color="#F6DC7D" />
+                <span>Pants</span>
+              </div>
+              <p>{`${data[1].price}`}</p>
+            </li>
+            <li>
+              <div>
+                <GoDotFill color="#EE8484" />
+                <span>Hoodies</span>
+              </div>
+              <p>{`${data[2].price}`}</p>
+            </li>
+          </ul>
+        )}
       </div>
     </div>
   );
