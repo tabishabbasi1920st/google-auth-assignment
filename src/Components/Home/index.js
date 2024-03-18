@@ -19,11 +19,11 @@ export default function Home() {
 
   const navigate = useNavigate();
 
-  // useEffect(() => {
-  //   if (Cookies.get("authToken") === undefined) {
-  //     navigate("/login");
-  //   }
-  // }, []);
+  useEffect(() => {
+    if (Cookies.get("authToken") === undefined) {
+      navigate("/login");
+    }
+  }, []);
 
   const renderAppropriateView = () => {
     switch (selectedOptionId) {
