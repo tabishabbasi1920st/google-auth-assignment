@@ -1,0 +1,28 @@
+.sidebar-item {
+  display: flex;
+  /* border: 2px solid red; */
+  height: 40px;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.sidebar-item-img {
+  height: 18px;
+  width: 18px;
+}
+
+.sidebar-item-name {
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .sidebar-item-name {
+    display: none;
+  }
+}
+
+.selected-option {
+  font-weight: 600;
+}

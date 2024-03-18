@@ -1,0 +1,29 @@
+.sidebar {
+  width: 100%;
+  flex-grow: 1;
+  border-radius: 20px;
+  padding: 30px;
+  background-color: #000;
+  transition: all 0.2s ease-in-out;
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    padding: 10px;
+    padding-top:18px;
+  }
+}
+
+.sidebar-board-heading {
+  color: #ffffff;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 30px;
+  margin: 15px 0px 15px 0px;
+}
+
+@media (max-width: 768px) {
+  .sidebar-board-heading {
+    display: none;
+  }
+}

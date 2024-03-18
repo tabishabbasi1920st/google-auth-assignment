@@ -1,0 +1,65 @@
+.today-schedule-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 20px;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .today-schedule-container {
+    width: 50%;
+    min-height: 120px;
+  }
+}
+
+.schedule-top-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.today-schedule-para {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.see-all-today-schedule {
+  font-size: 12px;
+  font-weight: 400;
+  font-family: "Montserrat";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.schedule-item1 {
+  border-left: 5px solid #9bdd7c;
+  padding-left: 10px;
+  margin-bottom: 15px;
+}
+.schedule-item2 {
+  border-left: 5px solid #6972c3;
+  padding-left: 10px;
+}
+
+.schedule-title {
+  font-family: "Lato";
+  font-weight: 700;
+  font-size: 14px;
+  color: #666666;
+}
+
+.schedule-time {
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 12px;
+  color: #999999;
+}
+
+.schedule-location {
+  font-weight: 400;
+  font-family: "Lato";
+  font-size: 12px;
+  color: #999999;
+}

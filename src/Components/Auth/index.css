@@ -1,0 +1,177 @@
+.main-container {
+  min-height: 100vh;
+  min-width: 100%;
+  max-height: 100vh;
+  max-width: 100%;
+  overflow: hidden;
+  display: flex;
+}
+
+.board-container {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: 40%;
+  max-width: 400px;
+  background-color: #000000;
+}
+
+@media (min-width: 768px) {
+  .board-container {
+    display: flex;
+  }
+}
+
+.board-heading {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 40px;
+  color: #fff;
+}
+
+.form-wrapper-container {
+  background-color: #f5f5f5;
+  flex-grow: 1;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form {
+  min-width: 300px;
+}
+
+@media (min-width: 576px) {
+  .form {
+    min-width: 400px;
+  }
+}
+
+.sign-in-heading {
+  font-family: "Montserrat";
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.sign-in-to-your-acc-para {
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.auth-btn-container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.apple-auth-btn {
+  background-color: #fff;
+  height: 30px;
+  width: 50%;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+
+.apple-auth-btn-txt {
+  font-size: 14px;
+  line-height: 15px;
+  font-family: "Montserrat";
+  color: #858585;
+  font-weight: 400;
+}
+
+@media (max-width: 576px) {
+  .apple-auth-btn-txt {
+    display: none;
+  }
+}
+
+.apple-icon {
+  margin-right: 5px;
+}
+
+.input-field-container {
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.label-and-input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Input fields */
+label {
+  display: block;
+  font-size: 16px;
+  font-family: "Lato";
+  font-weight: 600;
+}
+
+input {
+  height: 40px;
+  width: 100%;
+  border-radius: 10px;
+  background-color: #f5f5f5;
+  border: none;
+  outline: none;
+  padding: 10px;
+  font-family: "Lato";
+  font-weight: 400;
+  line-height: 20px;
+  font-size: 16px;
+}
+
+.forgot-pass-para {
+  color: #346bd4;
+  font-weight: 400;
+  font-family: "Lato";
+  font-size: 16px;
+  line-height: 20px;
+  cursor: pointer;
+}
+
+.sign-in-btn {
+  background-color: #000000;
+  width: auto;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.dont-have-acc-para {
+  text-align: center;
+}
+
+.dont-have-acc-para {
+  color: #858585;
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+span {
+  cursor: pointer;
+  color: #346bd4;
+}

@@ -1,0 +1,10 @@
+.highlights {
+  /* border: 2px solid red; */
+}
+
+@media (min-width: 425px) {
+  .highlights {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

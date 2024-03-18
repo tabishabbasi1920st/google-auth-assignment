@@ -1,0 +1,38 @@
+.activity-chart {
+  /* border: 2px solid red; */
+  border-radius: 20px;
+  background-color: #fff;
+  margin-top: 20px;
+}
+
+.chart-top-container {
+  /* border: 2px solid red; */
+  padding: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.chart-left-container {
+  /* border: 2px solid green; */
+}
+
+.chart-right-container {
+  /* border: 2px solid red; */
+  display: flex;
+  gap: 10px;
+}
+
+.chart-activities-para {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.guest {
+  font-size: 14px;
+  font-family: "Lato";
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
